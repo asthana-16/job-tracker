@@ -1,9 +1,18 @@
 # job-tracker
  A job tracking and management application.
 
+Full-stack MERN app using MVC for tracking job applications. Features secure authentication, visual stats, dynamic job listings, filters, and responsive search tools.
+
 # Description
 
-A full stack MERN application that helps the user track and manage their job applications.
+A full-stack **MERN** application for managing job applications, featuring secure authentication, dynamic statistics, and responsive search tools.
+
+- Uses **Model-View-Controller (MVC)** architecture for organized logic and separation of concerns  
+- Integrates **React Router** for seamless navigation between views  
+- Manages global state via **AppContext** and `useReducer` for predictable state handling  
+- Secures user sessions using **JWT-based authentication**  
+- Handles API requests efficiently with **Axios**  
+- Enhances UX with custom **alert system** and **paginated job listings**
 
 # Live Demo
 
@@ -46,6 +55,18 @@ MongoDB, Express, React, Node.js
 - Jobs have pagination so the user can browse all their jobs in manageable chunks and won't be overwhelmed.
 - Add Job with position, company, location, status, and type as parameters
 - Users can update their profile
+
+### 🔧 Key Features  
+- 📊 Switchable charts displaying job stats and application status  
+- 🔐 Secure Register/Login/Logout using JWT  
+- 🔍 Searchable and filterable job list with instant reset  
+- 📁 Paginated job browsing for improved UX  
+- 📝 Add jobs with position, company, location, status, and type  
+- ⚙️ Profile update capability  
+- 📦 Built with modular MVC design for scalability  
+- 🔁 Global state management via Context + `useReducer`  
+- 🔔 Alert system for smooth interaction feedback  
+- 🔗 Axios-powered RESTful API calls  
 
 # Instructions to run locally
 
