@@ -1,4 +1,4 @@
-# journey
+# Architectural Decision Log
 
 Documenting my steps while making `job-tracker`
 
