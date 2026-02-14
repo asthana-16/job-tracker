@@ -14,17 +14,6 @@ A full-stack **MERN** application for managing job applications, featuring secur
 - Handles API requests efficiently with **Axios**  
 - Enhances UX with custom **alert system** and **paginated job listings**
 
-# Live Demo
-
-[Job Tracker - Live Demo](https://dragons-job-tracker.onrender.com)
-
-You can log-in with a test account:
-
-```js
-email: test@test.com
-pass:  test
-```
-
 # Preview & Screenshots
 
 ### 📊 Job Statistics Overview  
